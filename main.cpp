@@ -22,7 +22,7 @@ int main()
 /*
 int main() {
     int n1=0,n2=1,n3,i,number;
-    cout<<"INGRESE EL NUMERO: ";
+    cout<<"INGRESE EL NUMERO 46: ";
     cin>>number;
     cout<<n1<<" "<<n2<<" ";
     for(i=2;i<number;++i)
@@ -67,5 +67,59 @@ int main()
     }
     system("pause");
 }*/
+
+
+/*
+int n ;
+
+
+int main(){
+
+    cout << "\Por favor introduce un numero: ";
+    cin >> n;
+
+    div_t resultado;
+
+    resultado=div(n,2);
+
+    if (resultado.rem>0)
+
+    {
+
+        cout << n << " es impar" << endl;
+
+    }
+
+    else {
+
+        cout << n << " es par" << endl;
+
+    }
+
+
+
+    cin.get();
+
+    return 0;
+
+}*/
+
+/*
+int main()
+{
+    int numero;
+    cout << "Ingresa el numero de la tabla de multiplicar :" << endl;
+    cin >> numero;
+
+    for (int i = 1; i <= 10; i++)
+    {
+        int multiplicacion = i * numero;
+        cout << numero << " x " << i << "=" << multiplicacion << endl;
+    }
+
+    system("PAUSE");
+    return 0;
+}
+*/
 
 
